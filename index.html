@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header class="div.top">
+  <body>
+    <!-- <button id="toggle-btn">Toggle</button> -->
+    <script src="script.js"></script>
+    <div class="containe">
+  <!--<button type="submit" class="btn" onclick="openPopup()">START HERE</button> -->
+      <div class="popup" id="popup">
+      <img src="https://images.squarespace-cdn.com/content/v1/5fc3bd57322bbc4f9be1898c/1607099745157-RG6WG7PG22QPYGBAEQMF/dcbest+headshot+photography+studio+moshezusman+headshotdc+-1.jpg" class="popicon">
+      <h2>GOOD NEWS!</h2>
+      <p>"Programming is not about what you know, but about what you can figure out." - Chris Pine.</p>
+      <button type="button" onclick="closePopup()">OK</button>
+    </div>
+    </div>
+    <div class="hero">
+      <nav>
+        <img src="https://i.ibb.co/8r3PSVD/Screen-Shot-2023-03-30-at-1-45-51-PM.png" class="icon">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="portfoloio.html">PORTOFOLIO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="intro">
+    <h1 class="h1">Hello,</h1>
+    <p class="p">
+      Im Darryll - a multidisciplinary designer with a passion for creating intuitive, user-friendly products that solve real-world problems and make a positive impact on people's lives.
+    </p>
+    <button type="submit" class="btn"  onclick="openPopup()">START HERE</button>
+    
+  </div>
+
+  <script>
+    let popup = document.getElementById("popup")
+
+function openPopup(){
+    popup.classList.add("open-popup")
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup")
+}
+  </script>
+  </body>
+</html>
